@@ -1,0 +1,11 @@
+[package]
+name = "StateDB"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eyre = "0.6.12"
+reth = {git = "https://github.com/paradigmxyz/reth"}
+reth-db = {git = "https://github.com/paradigmxyz/reth", package = "reth-db"}
+reth-node-ethereum = {git = "https://github.com/paradigmxyz/reth", package = "reth-node-ethereum"}
+alloy = { version = "0.5.2", features = ["providers"] }
